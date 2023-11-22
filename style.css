@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    /* font-family: 'Poppins'; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+}
+
+.nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+
+.nav .leftItems{
+    display: flex;
+    gap: 3vw;
+}
+
+.nav .centerItems{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.firstPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 12vw;
+    padding: 0 10vw;
+}
+
+.sustain{
+    width: 10vw;
+}
+
+.sustain p{
+    width: 100%;
+    opacity: 0.5;
+    font-size: .8rem;
+    margin: .5vw 0;
+}
+
+.sustainImg{
+    height: 11vw;
+    width: 80%;
+    /* background-color: aqua; */
+}
+
+.sustainImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 240%;
+}
+
+.ephemeral{
+    position: relative;
+    width: 30vw;
+    /* background-color: aquamarine; */
+}
+
+.epham-heading{
+    position: absolute;
+    top: -14%;  
+    left: -13%;
+}
+
+.ephemeral h1{
+    font-size: 6rem;
+    font-weight: 500;
+    letter-spacing: -.5vw;
+    line-height: 0.8;
+}
+
+.ephemeralImg{
+    width: 100%;
+    height: 42vw;
+    /* background-color: antiquewhite; */
+}
+
+.ephemeralImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; 
+}
+
+.ephemeral p{
+    width: 50%;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    line-height: 1.25;
+    letter-spacing: -0.1vw;
+}
+
+.visit{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+
+}
+
+
+.visitcircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.visitcircle i{
+    font-size: 1.5rem;
+    padding: 1vw;
+}
+
+.secondpart{
+    width: 100%;
+    margin-top: 12vw;
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.sec-Heading{
+    width: 15%;
+    text-align: right;
+    align-self: flex-start;
+}
+
+.sec-Heading h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: -.1vw;
+    line-height: 1.2;
+}
+
+.sec-Para{
+    margin-right: 5%;
+    width: 80%;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.sec-Para p{
+    font-size: 2vw;
+    line-height: 1.7;
+    letter-spacing: -0.15vw;
+    position: relative;
+    right: 0;
+    text-align: right;
+}
+
+.sec-Para span{
+    display: inline-block;
+    height: 3vw;
+    width: 6vw;
+    margin: 0 0.4vw;
+    border-radius: 100px;
+    transform: translate(0,15%);
+    background-color: red;
+}
+
+.sec-Para #span1 ,#span3{
+    width: 4vw;
+}
+
+span img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px; 
+}
+
+.thirdpart{
+    width: 100%;
+    margin-top: 12vw;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdpart .synergy{
+    width: 18%;
+    margin: 0 5vw;
+    /* background-color: aqua; */
+    align-self: start;
+}
+
+.thirdpart .synergy img{
+    width: 100%;
+    height: 22vw;
+    object-fit: cover;
+    object-position: center;
+}
+.thirdpart .synergy h3{
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    line-height: 1.2;
+    margin-top: 1vw;
+}
+
+.thirdpart .synergy p{
+    font-size: .9vw;
+    line-height: 1.1;
+    width: 80%;
+    letter-spacing: -0.05vw;
+    margin-top: 1vw;
+}
+
+.thirdpart .harmony{
+    width: 30%;
+    margin: 0 5vw;
+    /* background-color: bisque; */
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.thirdpart .harmony img{
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.thirdpart .harmony h3{
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    line-height: 1.2;
+    margin-top: 1vw;
+}
+
+.thirdpart .harmony p{
+    font-size: .9vw;
+    line-height: 1.1;
+    width: 70%;
+    letter-spacing: -0.05vw;
+    margin-top: 1vw;
+}
+
+.fourthpart{
+    width: 100%;
+    margin-top: 12vw;
+    display: flex;
+    align-items: center;
+}
+
+.fourthpart .fourthImg{
+    width: 70%;
+    height: 40vw;
+    /* background-color: aqua; */
+}
+
+.fourthpart .fourthImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 70%;
+}
+
+.fourthpart .fourthText{
+    width: 15%;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourthText h1{
+    font-size: 2.2vw;
+    font-weight: 500;
+    letter-spacing: -.2vw;
+    line-height: 1;
+    margin-top: 1vw;
+}
+
+.fourthText p{
+    margin-top: 2vw;
+    font-size: .9vw;
+    line-height: 1.1;
+    letter-spacing: -0.05vw;
+}
+
+.fifthpart{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifthpart video{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.fifthpart .videotext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    letter-spacing: -0.15vw;
+}
+
+.videotext button{
+    width: 8vw;
+    height: 3vw;
+    border-radius: 100px;
+    border: none;
+    background-color: #fefefe;
+    color: #000;
+    margin-top: 1vw;
+}
