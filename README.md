@@ -6,7 +6,7 @@ CodeLocoMotion is a dynamic website built using HTML, CSS, JavaScript, Locomotiv
 
 ## Website is Live 
 
-The website is hosted at Your Website Link. Feel free to explore and interact with it.
+The website is hosted at [Your Website Link](https://codelocomotion.netlify.app/). Feel free to explore and interact with it.
 
 ## Technologies Used
 
